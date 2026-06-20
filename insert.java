@@ -68,7 +68,7 @@ public class insert {
 
             Connection con = DriverManager.getConnection(URL, user, password); 
 
-            insertStudent(con, 4, "John Doe", 20);
+            insertStudent(con, 5, "rin", 20);
             displayStudent(con);
             columAdd(con, "email", "VARCHAR(255)");
 
